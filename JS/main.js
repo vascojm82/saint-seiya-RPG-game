@@ -1,3 +1,10 @@
+
+// * Saint Seiya RPG Game (https://github.com/vascojm82/saint-seiya-RPG-game)
+// * Version: 1.0
+// * Author: Jose M. Vasconcellos
+// * Github: https://github.com/vascojm82
+// * Free under the GNU license for non-comercial purposes
+
 $(document).ready(function() {
   var maxRowLength = (Object.keys(warriors).length - 1) / 2,
     rowLength = 0,

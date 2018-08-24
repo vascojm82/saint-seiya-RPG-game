@@ -1,3 +1,10 @@
+
+// * Saint Seiya RPG Game (https://github.com/vascojm82/saint-seiya-RPG-game)
+// * Version: 1.0
+// * Author: Jose M. Vasconcellos
+// * Github: https://github.com/vascojm82
+// * Free under the GNU license for non-comercial purposes
+
 var warriors = {
   'path': "./assets/",
   'card1': {
