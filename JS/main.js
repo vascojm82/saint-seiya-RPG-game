@@ -261,11 +261,15 @@ $(document).ready(function() {
     loops: 100
   });
 
+  backgroundMusicObject.stop();
+
   var pickSoundObject = soundManager.createSound({
     url: "assets/hover.wav",
     autoLoad: true,
     autoPlay: true
   });
+
+  pickSoundObject.stop();
 
   var selectSoundObject = soundManager.createSound({
     url: "assets/Accept.mp3",
@@ -273,11 +277,15 @@ $(document).ready(function() {
     autoPlay: true
   });
 
+  selectSoundObject.stop();
+
   var superbSoundObject = soundManager.createSound({
     url: "assets/superb.mp3",
     autoLoad: true,
     autoPlay: true
   });
+
+  superbSoundObject.stop();
 
   var excellentSoundObject = soundManager.createSound({
     url: "assets/excellent.mp3",
@@ -285,11 +293,15 @@ $(document).ready(function() {
     autoPlay: true
   });
 
+  excellentSoundObject.stop();
+
   var chooseSoundObject = soundManager.createSound({
     url: "assets/choose.mp3",
     autoLoad: true,
     autoPlay: true
   });
+
+  chooseSoundObject.stop();
 
   var fightSoundObject = soundManager.createSound({
     url: "assets/fight.mp3",
@@ -297,11 +309,15 @@ $(document).ready(function() {
     autoPlay: true
   });
 
+  fightSoundObject.stop();
+
   var koSoundObject = soundManager.createSound({
     url: "assets/KO.wav",
     autoLoad: true,
     autoPlay: true
   });
+
+  koSoundObject.stop();
 
   var youWinSoundObject = soundManager.createSound({
     url: "assets/you_win.wav",
@@ -309,11 +325,15 @@ $(document).ready(function() {
     autoPlay: true
   });
 
+  youWinSoundObject.stop();
+
   var victoryThemeSoundObject = soundManager.createSound({
     url: "assets/winner_theme.mp3",
     autoLoad: true,
     autoPlay: true
   });
+
+  victoryThemeSoundObject.stop();
 
   var youLoseSoundObject = soundManager.createSound({
     url: "assets/you_lose.mp3",
@@ -321,11 +341,15 @@ $(document).ready(function() {
     autoPlay: true
   });
 
+  youLoseSoundObject.stop();
+
   var gameOverSoundObject = soundManager.createSound({
     url: "assets/game_over.wav",
     autoLoad: true,
     autoPlay: true
   });
+
+  gameOverSoundObject.stop();
 
   $(".card").mouseenter(function() {
     pickSoundObject.stop();
