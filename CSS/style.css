@@ -1,0 +1,115 @@
+.canvas{
+  animation: pulse .2s;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+
+.header{
+  position: fixed;    /* Sticky Header */
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding-right: 40px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.main-container{
+  margin-top: 60px;
+}
+
+.container h2{
+  color: rgba(0,0,0,0.6);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.subheading-enemies, .subheading-attack, .subheading-defender{
+  display: none;
+}
+
+.card{
+  background-color: transparent;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-img-top {
+  width: 90%;
+  height: 9rem;
+}
+
+.card-row{
+  margin-bottom: 2rem;
+}
+
+.item{
+  display: none;
+}
+
+.damage-player{
+  color: purple;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.no-damage-player{
+  color: green;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.damage-CPU{
+  color: red;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.no-damage-CPU{
+  color: white;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.fight-section{
+  margin-bottom: 20px;
+}
+
+.main-container{
+  display: none;
+}
+
+.next-foe{
+  font-size: x-large !important;
+  padding-top: 1rem;
+}
+
+#defender{
+  margin-bottom: 10rem;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  50% {
+    background-color: #FF4136;
+  }
+  100% {
+    background-color: #001F3F;
+  }
+}
