@@ -159,6 +159,7 @@ $(document).ready(function() {
       $this.className.search("item-"),
       $this.className.length
     );
+	selectedWarrior = selectedWarrior.replace(' used', '');
     JQthis.children().css("border", "2px solid green");
     JQthis.addClass("selected");
     JQthis.addClass("used");
@@ -187,6 +188,7 @@ $(document).ready(function() {
       $this.className.search("item-"),
       $this.className.length
     );
+	selectedWarrior = selectedWarrior.replace(' used', '');
     JQthis.children().css("border", "2px solid green");
     JQthis.addClass("selected");
     JQthis.addClass("used");
